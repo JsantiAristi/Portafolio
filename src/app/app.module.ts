@@ -2,10 +2,18 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { IconoNavComponent } from './components/icono-nav/icono-nav.component';
+import { AboutMeComponent } from './components/about-me/about-me.component';
+import { BarraLoadingComponent } from './components/barra-loading/barra-loading.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent,
+    IconoNavComponent,
+    AboutMeComponent,
+    BarraLoadingComponent
   ],
   imports: [
     BrowserModule

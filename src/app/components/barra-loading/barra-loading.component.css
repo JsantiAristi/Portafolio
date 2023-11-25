@@ -1,0 +1,21 @@
+.barra-carga-container {
+  width: 200px; /* Ancho del contenedor de la barra de carga */
+  height: 10px; /* Altura del contenedor de la barra de carga */
+  background-color: #ddd; /* Color de fondo del contenedor */
+  border-radius: 10px; /* Redondea las esquinas */
+  overflow: hidden; /* Asegura que la barra de carga no sobresalga */
+}
+
+.barra-carga {
+  width: 0; /* Ancho inicial de la barra de carga */
+  height: 100%; /* Altura igual al contenedor */
+  background-color: rgb(62, 211, 62); /* Color de la barra de carga */
+  border-radius: 10px; /* Redondea las esquinas */
+  animation: cargar 2s infinite linear; /* Aplica la animación */
+}
+
+/* Define la animación */
+@keyframes cargar {
+  0% { width: 0; }
+  100% { width: 100%; }
+}

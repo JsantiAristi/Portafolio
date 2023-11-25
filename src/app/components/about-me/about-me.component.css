@@ -1,0 +1,33 @@
+h2{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.gray-color{
+  color: gray;
+}
+
+.green-color{
+  color: rgb(62, 211, 62);
+}
+
+.titulo_about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-green{
+  width: 200px;
+  border-radius: 35px;
+}
+
+.btn-green{
+  color: white;
+  background-color: rgb(62, 211, 62);
+}
+
+.btn-green:hover{
+  background-color: rgb(34, 157, 34);
+}
