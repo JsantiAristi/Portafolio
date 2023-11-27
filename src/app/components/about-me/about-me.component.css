@@ -31,3 +31,14 @@ h2{
 .btn-green:hover{
   background-color: rgb(34, 157, 34);
 }
+
+.informacion p{
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+  .div_informacion_yo{
+    width: 40%;
+  }
+}
+
