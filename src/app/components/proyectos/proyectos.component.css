@@ -1,0 +1,19 @@
+h2{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.gray-color{
+  color: gray;
+}
+
+.green-color{
+  color: rgb(62, 211, 62);
+}
+
+.titulo_about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
