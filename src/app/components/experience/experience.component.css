@@ -1,7 +1,19 @@
+h4{
+  display: flex;
+  align-items: center;
+}
+
 .gray-color{
   color: gray;
 }
 
 .card-body p{
   margin-bottom: 0.5rem;
+}
+
+.badge{
+  font-size: 14px;
+  margin-left: 5px;
+  width: 60px;
+  background-color: rgb(62, 211, 62) !important;
 }

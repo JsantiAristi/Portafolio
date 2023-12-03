@@ -7,6 +7,7 @@ import { IconoNavComponent } from './components/icono-nav/icono-nav.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { BarraLoadingComponent } from './components/barra-loading/barra-loading.component';
 import { ExperienceComponent } from './components/experience/experience.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ExperienceComponent } from './components/experience/experience.componen
     IconoNavComponent,
     AboutMeComponent,
     BarraLoadingComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule
