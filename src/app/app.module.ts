@@ -9,6 +9,8 @@ import { BarraLoadingComponent } from './components/barra-loading/barra-loading.
 import { ExperienceComponent } from './components/experience/experience.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
     BarraLoadingComponent,
     ExperienceComponent,
     SkillsComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    ContactComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule

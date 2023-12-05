@@ -1,6 +1,7 @@
 h2{
   font-size: 50px;
   font-weight: bold;
+  margin-top: 55px;
 }
 
 .gray-color{
@@ -17,3 +18,28 @@ h2{
   justify-content: center;
   align-items: center;
 }
+
+.card{
+  width: 315px;
+  height: 330px;
+}
+
+.card img{
+  width: 100%;
+  height: 100%;
+  max-height: 315px;
+  object-fit: cover;
+}
+
+.card-body a{
+  color: gray;
+  font-size: 2rem;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.card-body a:hover{
+  color: rgb(71, 69, 69);
+}
+
+

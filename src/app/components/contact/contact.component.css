@@ -1,0 +1,30 @@
+h2{
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.gray-color{
+  color: gray;
+}
+
+.green-color{
+  color: rgb(62, 211, 62);
+}
+
+.titulo_about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  width: 100%;
+}
+
+.icon-div{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: rgb(222, 215, 215);
+}

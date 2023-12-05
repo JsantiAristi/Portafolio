@@ -7,6 +7,7 @@ import { Component, HostListener } from '@angular/core';
 })
 export class NavbarComponent {
   navbarScrolled: boolean = false;
+  sideBar:boolean = false;
 
   @HostListener('window:scroll', ['$event'])
   onWindowScroll() {
@@ -16,5 +17,9 @@ export class NavbarComponent {
       } else {
           this.navbarScrolled = false;
       }
+  }
+
+  abrirSidebar() {
+    this.sideBar = !this.sideBar
   }
 }

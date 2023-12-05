@@ -1,0 +1,23 @@
+/* sidebar.component.css */
+.sidebar {
+  position: fixed;
+  top: 0;
+  width: 100%; /* Ajusta según el ancho deseado */
+  height: 100%;
+  background-color: white;
+  z-index: 1000;
+  transition: right 10s ease; /* Transición suave hacia la derecha */
+}
+
+.sidebar-open {
+  right: 0; /* Posición final cuando el sidebar está abierto */
+}
+
+.close-btn {
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
