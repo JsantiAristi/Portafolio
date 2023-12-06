@@ -1,10 +1,31 @@
-<!-- sidebar.component.html -->
-<div class="sidebar" [ngClass]="{'sidebar-open': sideBar}">
-  <button class="close-btn" (click)="toggleSidebar()">X</button>
-  <ul class="list-unstyled">
-    <li><a href="#">Link 1</a></li>
-    <li><a href="#">Link 2</a></li>
-    <li><a href="#">Link 3</a></li>
-    <!-- Agrega más enlaces según sea necesario -->
-  </ul>
+<div class="close mt-2">
+  <i class="fa-solid fa-xmark" (click)="toggleSidebar()"></i>
 </div>
+<mat-list style="width:100%;">
+  <mat-list-item class="menu-movil">
+    <a class="nav-link text-white" href="#home">
+      <i class="fa-solid fa-flask"></i> Home
+    </a>
+  </mat-list-item>
+
+  <mat-list-item class="menu-movil">
+    <a class="nav-link text-white" href="#about">
+      <i class="fa-solid fa-vial"></i> About
+    </a>
+  </mat-list-item>
+  <mat-list-item class="nav-item">
+    <a class="nav-link text-white" href="#projects">
+      <i class="fa-solid fa-atom"></i> Projects
+    </a>
+  </mat-list-item>
+  <mat-list-item class="nav-item">
+      <a class="nav-link text-white" href="#stats">
+        <i class="fa-solid fa-flask-vial"></i> Stats
+      </a>
+  </mat-list-item>
+  <mat-list-item class="nav-item">
+      <a class="nav-link text-white" href="#contact">
+        <i class="fa-solid fa-vial-circle-check"></i> Contact
+      </a>
+  </mat-list-item>
+</mat-list>

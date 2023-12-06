@@ -1,4 +1,5 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { SideBarService } from 'src/app/services/side-bar.service';
 
 @Component({
   selector: 'app-sidebar',
@@ -6,12 +7,12 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent {
-  @Input() sideBar: boolean = false;
-  @Output() closeSideBar = new EventEmitter<boolean>
 
-  constructor() {}
+  constructor(
+    private sideBarService: SideBarService
+  ) {}
 
   toggleSidebar() {
-    this.closeSideBar.emit(false);
+    this.sideBarService.setSideBarStatus(false);
   }
 }

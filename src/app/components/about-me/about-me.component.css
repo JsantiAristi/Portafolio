@@ -37,6 +37,14 @@ h2{
   margin-bottom: 0.5rem;
 }
 
+@media (max-width: 500px) {
+  h2{
+    margin-top: 72px;
+  }
+
+}
+
+
 @media (min-width: 1024px) {
   .div_informacion_yo{
     width: 40%;
