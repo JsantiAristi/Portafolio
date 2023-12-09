@@ -18,7 +18,7 @@
 }
 
 .close i{
-  font-size: 22px;
+  font-size: 30px;
   cursor: pointer;
   color: white;
 }
@@ -26,6 +26,10 @@
 .menu-movil {
   box-sizing: border-box;
   cursor:pointer;
+}
+
+.menu-movil a{
+  font-size: larger;
 }
 
 .menu-movil:hover {

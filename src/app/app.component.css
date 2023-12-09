@@ -41,6 +41,11 @@
 
 i{
   cursor: pointer;
+  color: white;
+}
+
+i:hover{
+  color: rgb(62, 211, 62);
 }
 
 .buttons button{

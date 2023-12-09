@@ -1,0 +1,21 @@
+h2{
+  font-size: 45px;
+  font-weight: bold;
+  margin-top: 55px;
+  line-height: normal;
+}
+
+.gray-color{
+  color: gray;
+}
+
+.green-color{
+  color: rgb(62, 211, 62);
+}
+
+.titulo_about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
