@@ -14,8 +14,11 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
+import { MatDialogModule } from '@angular/material/dialog';
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StatsComponent } from './components/stats/stats.component';
+import { DialogExperienceComponent } from './components/experience/dialogExperience/dialogExperience.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +28,7 @@ import { StatsComponent } from './components/stats/stats.component';
     AboutMeComponent,
     BarraLoadingComponent,
     ExperienceComponent,
+    DialogExperienceComponent,
     SkillsComponent,
     ProyectosComponent,
     ContactComponent,
@@ -35,7 +39,8 @@ import { StatsComponent } from './components/stats/stats.component';
     BrowserModule,
     MatSidenavModule,
     BrowserAnimationsModule,
-    MatListModule
+    MatListModule,
+    MatDialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

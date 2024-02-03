@@ -1,66 +1,55 @@
 <div class="container mt-4 d-lg-flex gap-4">
-  <div style="width: 50%;">
+  <div class="bigContainer">
     <h2 class="text-center gray-color">EXPERIENCIA</h2>
     <div class="mt-4">
-      <div class="card">
+      <div class="card" (click)="openDialog('kosmetikon')">
         <div class="card-body m-1">
           <h4 class="gray-color mb-4">Desarrollador Full Stack
-            <span class="badge text-bg-success d-none d-lg-block">Actual</span>
+            <span class="badge text-bg-success">Actual</span>
           </h4>
-          <div class="d-flex flex-column flex-md-row gap-md-3">
-            <p class="gray-color"><i class="fa-solid fa-location-dot"></i> Kosmetikon
-              <span class="badge text-bg-success d-block d-lg-none">Actual</span>
-            </p>
+          <div class="d-flex flex-row flex-wrap gap-3">
+            <p class="gray-color"><i class="fa-solid fa-location-dot"></i> Kosmetikon</p>
             <p class="gray-color"><i class="fa-solid fa-globe"></i> Remoto</p>
             <p class="gray-color"><i class="fa-regular fa-calendar-days"></i> Junio 2023 - Actualmente</p>
           </div>
-          <p class="gray-color">Desarrollé más del 70% para una web, creando, corrigiendo y trabajando en un código limpio en toda su estructura.</p>
         </div>
       </div>
 
-      <div class="card mt-4">
+      <div class="card mt-4" (click)="openDialog('mindhub')">
         <div class="card-body m-1">
           <h4 class="gray-color mb-4">Desarrollador Full Stack</h4>
-          <div class="d-flex flex-column flex-md-row gap-md-3">
+          <div class="d-flex flex-row flex-wrap gap-3">
             <p class="gray-color"><i class="fa-solid fa-location-dot"></i> MindHub</p>
             <p class="gray-color"><i class="fa-solid fa-globe"></i> Remoto</p>
             <p class="gray-color"><i class="fa-regular fa-calendar-days"></i> Febrero 2023 - Junio 2023</p>
           </div>
-          <p class="gray-color">Como desarrollador autodidacta desde mis comienzos siempre estuve aplicando lo que aprendia en el bootcamp de MINDHUB haciendo proyectos que destacaran los conocimientos adquiridos, estudiando las mejores prácticas, entendiendo cómo funciona la programación y la mejor forma de emplear su uso.
-            <br>
-            <br>
-            Logré crear distintos proyectos y aprender sobre distintas tecnologías y frameworks.<br>
-            Logré buenos hábitos y prácticas de código aplicables a cualquier trabajo como desarrollador.</p>
         </div>
       </div>
     </div>
   </div>
 
-  <div style="width: 50%;">
+  <div class="bigContainer">
     <h2 class="text-center gray-color mt-4 mt-lg-0">EDUCACIÓN</h2>
     <div class="mt-4">
-      <div class="card">
+      <div class="card" (click)="openDialog('platzi')">
         <div class="card-body m-1">
           <h4 class="gray-color mb-4">Frontend con ANGULAR</h4>
-          <div class="d-flex flex-column flex-md-row gap-md-3">
+          <div class="d-flex flex-row flex-wrap gap-3">
             <p class="gray-color"><i class="fa-solid fa-location-dot"></i> PLATZI</p>
             <p class="gray-color"><i class="fa-solid fa-globe"></i> Remoto</p>
             <p class="gray-color"><i class="fa-regular fa-calendar-days"></i> Octubre 2023</p>
           </div>
-          <p class="gray-color">Lista de 14 cursos sobre Angular, desde el desarrollo hasta testing</p>
         </div>
       </div>
 
-      <div class="card mt-4">
+      <div class="card mt-4" (click)="openDialog('personal')">
         <div class="card-body m-1">
           <h4 class="gray-color mb-4">Desarrollador WEB</h4>
-          <div class="d-flex flex-column flex-md-row gap-md-3">
+          <div class="d-flex flex-row flex-wrap gap-3">
             <p class="gray-color"><i class="fa-solid fa-location-dot"></i> Proyecto Personal</p>
             <p class="gray-color"><i class="fa-solid fa-globe"></i> Remoto</p>
             <p class="gray-color"><i class="fa-regular fa-calendar-days"></i> Enero 2022</p>
           </div>
-          <p class="gray-color">Aprendizaje didáctico y personal, realizando proyectos propios,
-            para poder conocer las bases de la programación.</p>
         </div>
       </div>
     </div>
